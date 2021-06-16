@@ -17,6 +17,7 @@ public class Circulo {
         circulo.perimetroCirculo();
     }
 
+    //Constructor
     public Circulo(double pi, double radio){
         this.pi = pi;
         this.radio = radio;
