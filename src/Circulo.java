@@ -6,8 +6,8 @@ public class Circulo {
     //Se colocan los atributos y se encapsulan porque no interesa
     // que otros puedan acceder a estos atributos
 
-    double pi = 3.1416;
-    double radio = 9.0;
+    private double pi = 3.1416;
+    private double radio = 9.0;
     public static void main(String[] args) {
         //Creación del objeto
         Circulo circulo = new Circulo();
