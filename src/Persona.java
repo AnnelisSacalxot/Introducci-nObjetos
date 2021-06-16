@@ -14,6 +14,13 @@ public class Persona {
         //Creación del objeto
         Persona persona = new Persona();
 
+        //Llamando a los métodos
+        persona.calcularIMC();
+        persona.mayorEdad();
+        persona.comprobarSexo();
+        persona.generaDNI();
+
+
     }
 
     //Se inicializa el constructor con todos los atributos de la clase
